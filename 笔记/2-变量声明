@@ -1,0 +1,24 @@
+# 4种变量声明的方式
+
+## 无初始化值
+var num int
+[关键字 变量名 数据类型]
+
+## 有初始化值
+var str string = "zhijian"
+
+## 自动推导类型
+var num = 1
+
+## 省略var并推导类型[全局变量不能使用这个省略写法]
+num := 45
+
+## 声明多个变量
+
+var num1,num2 int = 100,200
+var num1,str1 = 100,"string"
+
+var(
+    num int = 100
+    str string
+)

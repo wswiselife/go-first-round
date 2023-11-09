@@ -1,0 +1,12 @@
+# 常量声明
+
+1. const 定义枚举类型
+2. 只读属性，不允许修改
+3. 使用关键字 iota 来累加，iota 默认值为0
+
+注意：iota 只能出现在const关键字中
+const(
+    num1 = iota*10       // iota = 0    0
+    num2                 // iota = 1    10
+    num3                 // iota = 2    20
+)
